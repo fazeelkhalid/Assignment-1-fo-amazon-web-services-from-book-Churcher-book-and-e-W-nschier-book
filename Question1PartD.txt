@@ -1,0 +1,1 @@
+mysql -u UserName -p Password -e ' b.metabolism where a.gene <> b.gene =  a.gene, a.function, a.metabolism, b.gene from annotation a inner join annotation b on a.metabolism

@@ -1,0 +1,6 @@
+mysql -u username -p password -e ' 
+Select Distinct mem.LastName, mem.FirstName, ent.MemberID 
+from  ((Entry ent inner join Entry a on ent.MemberID = 
+a.MemberID) inner join Entry h on a.MemberID=h.MemberID) 
+inner join Member mem on  m.MemberID=e.MemberID where 
+e.Year=2013 and a.Year=2014 and h.Year=2015;’

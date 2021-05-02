@@ -1,0 +1,1 @@
+join -j 1 -o 1.1,2.2,1.2 Question1A.txt Question1B.txt

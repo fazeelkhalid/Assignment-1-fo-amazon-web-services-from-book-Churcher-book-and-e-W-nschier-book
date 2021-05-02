@@ -1,0 +1,1 @@
+(iii)	mysql -u username -p password -e ‘select LastName,FirstName from Member where Coach is null’

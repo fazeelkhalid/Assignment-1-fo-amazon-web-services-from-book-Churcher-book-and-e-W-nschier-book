@@ -1,0 +1,1 @@
+mysql -u UserName -p Password -e 'select * from annotation order by gene;' > Question1B.txt

@@ -1,0 +1,1 @@
+mysql -u UserName -p Password -e 'select * from expression order by gene;' > Question1A.txt

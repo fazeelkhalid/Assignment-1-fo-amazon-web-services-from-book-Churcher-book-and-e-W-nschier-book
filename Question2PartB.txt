@@ -1,0 +1,1 @@
+select LastName,FirstName from Member where JoinDate>’2012-12-31’and JoinDate < ’2014-1-1’

@@ -1,0 +1,5 @@
+(iii)	mysql -u username -p password -e’
+Select Distinct mem.LastName,mem.FirstName,en.MemberID
+From Member mem inner join Entry en on mem.MemberID = 
+en.MemberID Where en.MemberID NOT IN (Select a.MemberID 
+From Entry a Where a.Year=2013);'
